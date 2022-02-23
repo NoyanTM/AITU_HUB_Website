@@ -1,2 +1,2 @@
-# Aitu_Hub_final
-Aitu_Hub_final
+# AITUHub
+Website for AITU HUB
