@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="553" height="368" viewBox="0 0 553 368">
+  <defs>
+    <filter id="Прямоугольник_113" x="0" y="0" width="553" height="368" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_66" data-name="Сгруппировать 66" transform="translate(-14210 -4752)">
+    <g transform="matrix(1, 0, 0, 1, 14210, 4752)" filter="url(#Прямоугольник_113)">
+      <rect id="Прямоугольник_113-2" data-name="Прямоугольник 113" width="535" height="350" rx="22" transform="translate(9 6)" fill="#131313"/>
+    </g>
+    <text id="Поддержка_на_всех_этапах" data-name="Поддержка на
+всех этапах" transform="translate(14247 4807)" fill="#fff" font-size="30" font-family="Inter-Bold, Inter" font-weight="700" letter-spacing="0.09em"><tspan x="0" y="0">Поддержка на</tspan><tspan x="0" y="40">всех этапах</tspan></text>
+    <text id="Наши_специалисты_помогут_углубиться_в_программу_ответят_на_различные_важные_вопросы_направят_и_проследят_за_ходом_вашего_продуктивного_обучения._" data-name="Наши специалисты помогут 
+углубиться в программу, ответят 
+на различные важные вопросы,
+направят и проследят за ходом
+вашего продуктивного обучения. " transform="translate(14247 4923)" fill="#fff" font-size="25" font-family="Inter" letter-spacing="0.08em"><tspan x="0" y="0">Наши специалисты помогут </tspan><tspan x="0" y="30">углубиться в программу, ответят </tspan><tspan x="0" y="60">на различные важные вопросы,</tspan><tspan x="0" y="90">направят и проследят за ходом</tspan><tspan x="0" y="120">вашего продуктивного обучения. </tspan></text>
+    <line id="Линия_34" data-name="Линия 34" x2="233.375" transform="translate(14247 4864)" fill="none" stroke="#3485ff" stroke-width="5" opacity="0.5"/>
+  </g>
+</svg>

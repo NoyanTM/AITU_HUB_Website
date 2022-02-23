@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="100" viewBox="0 0 1110 100">
+  <g id="Сгруппировать_70" data-name="Сгруппировать 70" transform="translate(-14175 -6841)">
+    <g id="Прямоугольник_117" data-name="Прямоугольник 117" transform="translate(14175 6841)" fill="none" stroke="#2c68c4" stroke-width="1">
+      <rect width="1110" height="100" rx="22" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1109" height="99" rx="21.5" fill="none"/>
+    </g>
+    <text id="Разработчик_Java" data-name="Разработчик Java" transform="translate(14357 6884)" fill="#131313" font-size="30" font-family="Inter-Bold, Inter" font-weight="700" letter-spacing="0.09em"><tspan x="-155.175" y="0">Разработчик Java</tspan></text>
+    <text id="Вакансия" transform="translate(14254 6921)" fill="#131313" font-size="20" font-family="Inter" letter-spacing="0.09em"><tspan x="-52.436" y="0">Вакансия</tspan></text>
+    <text id="от_350_тыс_тг." data-name="от 350 тыс тг." transform="translate(15132 6902)" fill="#131313" font-size="30" font-family="Inter-Bold, Inter" font-weight="700" letter-spacing="0.09em"><tspan x="-122.976" y="0">от 350 тыс тг.</tspan></text>
+  </g>
+</svg>

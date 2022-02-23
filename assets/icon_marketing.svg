@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="100" viewBox="0 0 1110 100">
+  <g id="Сгруппировать_69" data-name="Сгруппировать 69" transform="translate(-14175 -6711)">
+    <g id="Прямоугольник_116" data-name="Прямоугольник 116" transform="translate(14175 6711)" fill="none" stroke="#2c68c4" stroke-width="1">
+      <rect width="1110" height="100" rx="22" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1109" height="99" rx="21.5" fill="none"/>
+    </g>
+    <text id="Маркетолог" transform="translate(14306 6754)" fill="#131313" font-size="30" font-family="Inter-Bold, Inter" font-weight="700" letter-spacing="0.09em"><tspan x="-103.796" y="0">Маркетолог</tspan></text>
+    <text id="Вакансия" transform="translate(14257 6791)" fill="#131313" font-size="20" font-family="Inter" letter-spacing="0.09em"><tspan x="-52.436" y="0">Вакансия</tspan></text>
+    <text id="от_300_тыс_тг." data-name="от 300 тыс тг." transform="translate(15132 6772)" fill="#131313" font-size="30" font-family="Inter-Bold, Inter" font-weight="700" letter-spacing="0.09em"><tspan x="-123.631" y="0">от 300 тыс тг.</tspan></text>
+  </g>
+</svg>

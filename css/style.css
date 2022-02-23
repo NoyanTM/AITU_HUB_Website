@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    color:white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+}
+
+.intro_banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/intro.png) center no-repeat;
+    background-size: cover;
+}
+
+.intro_title {
+    font-weight: 900;
+    text-transform: uppercase;
+    color:white;
+    line-height: 1.1;
+}
+
+.btn.btn-primary.btn-lg{
+    font-weight: 900;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 30px;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: rgb(11, 89, 192);
+}
+
+.btn.btn-primary.btn-lg:hover{
+    box-shadow: 0 0 50px 0 rgba(3, 164, 212, 0.637);
+}
+
+.page-section {
+    padding:70px;
+}
+
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+
+#path .path-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #path .path-item .path-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #path .path-item .path-link .path-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 124, 230, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+  }
+
+  #path .path-item .path-link .path-hover .path-hover-content {
+    font-size: 1.25rem;
+    color: white;
+  }
+
+  #path .path-item .path-link:hover .path-hover {
+    opacity: 1;
+  }
+
+  #path .path-item .path-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  #path .path-item .path-caption .path-caption-heading {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  
+  .path-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .team-member img {
+    width: 20rem;
+    height: 20rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+  }

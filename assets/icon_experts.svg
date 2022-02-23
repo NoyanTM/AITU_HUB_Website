@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="553" height="368" viewBox="0 0 553 368">
+  <defs>
+    <filter id="Прямоугольник_114" x="0" y="0" width="553" height="368" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_67" data-name="Сгруппировать 67" transform="translate(-14816 -4752)">
+    <g transform="matrix(1, 0, 0, 1, 14816, 4752)" filter="url(#Прямоугольник_114)">
+      <rect id="Прямоугольник_114-2" data-name="Прямоугольник 114" width="535" height="350" rx="22" transform="translate(9 6)" fill="#131313"/>
+    </g>
+    <text id="Преподаватели_-_настоящие_профессионалы_" data-name="Преподаватели -
+настоящие профессионалы " transform="translate(14849 4807)" fill="#fff" font-size="30" font-family="Inter-Bold, Inter" font-weight="700" letter-spacing="0.09em"><tspan x="0" y="0">Преподаватели -</tspan><tspan x="0" y="40">настоящие профессионалы </tspan></text>
+    <line id="Линия_35" data-name="Линия 35" x2="233.375" transform="translate(14849 4864)" fill="none" stroke="#3485ff" stroke-width="5" opacity="0.5"/>
+    <text id="Вас_будут_учить_эксперты_из_Astana_IT_University._Они_поделятся_опытом_и_техниками_которые_каждый_раз_помогают_им_в_работе" data-name="Вас будут учить эксперты из
+Astana IT University. Они 
+поделятся опытом и техниками, 
+которые каждый 
+раз помогают им в работе" transform="translate(14849 4923)" fill="#fff" font-size="25" font-family="Inter" letter-spacing="0.08em"><tspan x="0" y="0">Вас будут учить эксперты из</tspan><tspan x="0" y="30">Astana IT University. Они </tspan><tspan x="0" y="60">поделятся опытом и техниками, </tspan><tspan x="0" y="90">которые каждый </tspan><tspan x="0" y="120">раз помогают им в работе</tspan></text>
+  </g>
+</svg>
