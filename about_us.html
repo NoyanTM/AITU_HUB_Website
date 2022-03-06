@@ -16,7 +16,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
         <a href="" class="navbar-brand d-flex me-auto"><img class="d-inline-block alight-top" src="assets/logo.svg" width="200" height="35"/></a>
-        <button 
+        <button
         type="button" 
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -45,27 +45,71 @@
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/Rakhimgali_Nurgali.png"/>
                         <h4>Нургали Рахимгали</h4>
-                        <p class="card body border-light bg-dark p-3 text-muted"><strong>Специалист-разработчик уникальных систем. </strong>Разбирается во многих сферах разработки программного обеспечения, а также кибербезопасности.</p>
+                        <button id="button1" class="btn btn-primary btn-sm px-5 me-sm-2">Биография</button>
+                        <p class="card body border-light bg-dark p-3 text-muted" id="text1" style="display: none;"><strong>Специалист-разработчик уникальных систем. </strong>Разбирается во многих сферах разработки программного обеспечения, а также кибербезопасности.</p>
+                        <script>
+                            var song1 = new Audio();
+                            song1.src = 'assets/audio_Rakhimgali.wav';
+
+                            document.getElementById('button1').addEventListener('click', () => {
+                                if (document.getElementById('text1').style.display == 'block') {
+                                    document.getElementById('text1').style.display = 'none';
+                                    song1.pause();
+                                } else {
+                                    document.getElementById('text1').style.display = 'block';
+                                    song1.play();
+                                }
+                            })
+                        </script>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/Noyan_Tendikov.png"/>
                         <h4>Тендиков Ноян</h4>
-                        <p class="card body border-light bg-dark p-3 text-muted"><strong>Специалист создания игр и дизайнов систем. </strong>Ознакомит с основными игровыми движками, разбирается в разработке фирменного стиля и геймдизайна.</p>
+                        <button id="button2" class="btn btn-primary btn-sm px-5 me-sm-2">Биография</button>
+                        <p class="card body border-light bg-dark p-3 text-muted" id="text2" style="display: none;"><strong>Специалист создания игр и дизайнов систем. </strong>Ознакомит с основными игровыми движками, разбирается в разработке фирменного стиля и геймдизайна.</p>
+                        <script>
+                            var song2 = new Audio();
+                            song2.src = 'assets/audio_Noyan.wav';
+
+                            document.getElementById('button2').addEventListener('click', () => {
+                                if (document.getElementById('text2').style.display == 'block') {
+                                    document.getElementById('text2').style.display = 'none';
+                                    song2.pause();
+                                } else {
+                                    document.getElementById('text2').style.display = 'block';
+                                    song2.play();
+                                }
+                            })
+                        </script>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle" src="assets/Daulet_Abishev.png"/>
                         <h4>Абишев Даулет</h4>
-                        <p class="card body border-light bg-dark p-3 text-muted"><strong>Специалист медиамаркетинга. </strong>Ведет киноклуб в AITU - "Filmy". Погрузит вас в азы продвижения вашего контента: от создания идеи до реализации плана продвижения вашей компании.</p>
+                        <button id="button3" class="btn btn-primary btn-sm px-5 me-sm-2">Биография</button>
+                        <p class="card body border-light bg-dark p-3 text-muted" id="text3" style="display: none;"><strong>Специалист медиамаркетинга. </strong>Ведет киноклуб в AITU - "Filmy". Погрузит вас в азы продвижения вашего контента: от создания идеи до реализации плана продвижения вашей компании.</p>
+                        <script>
+                            var song3 = new Audio();
+                            song3.src = 'assets/audio_Daulet.wav';
+
+                            document.getElementById('button3').addEventListener('click', () => {
+                                if (document.getElementById('text3').style.display == 'block') {
+                                    document.getElementById('text3').style.display = 'none';
+                                    song3.pause();
+                                } else {
+                                    document.getElementById('text3').style.display = 'block';
+                                    song3.play();
+                                }
+                            })
+                        </script>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</body>
 <!-- Partners-->
 <section class="page-section bg-white" id="partners">
     <div class="container">
@@ -74,17 +118,17 @@
         </div>
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                         <a href="http://astanait.edu.kz/"><img class="img-fluid img-brand d-block mx-auto" src="assets/icon_aitu.svg" alt="..." /></a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                         <a href="https://www.kaspersky.ru/"><img class="img-fluid img-brand d-block mx-auto" src="assets/icon_kaspersky.svg" alt="..." /></a>
                     </div>
-                    <div class="col-sm-3">
-                        <a href="https://www.microsoft.com/"><img class="img-fluid img-brand d-block mx-auto" src="assets/icon_microsoft.svg" alt="..." /></a>
+                    <div class="col-sm-2">
+                        <a href="https://www.microsoft.com/"><img class="img-fluid img-brand d-block mx-auto" src="assets/icon_huawei.svg" alt="..." /></a>
                     </div>
-                    <div class="col-sm-3">
-                        <a href="#"><img class="img-fluid img-brand d-block mx-auto" src="assets/icon_huawei.svg" alt="..." /></a>
+                    <div class="col-sm-2">
+                        <a href="https://foundation.kz/ru/"><img class="img-fluid img-brand d-block mx-auto" src="assets/icon_NNEF.svg" alt="..." /></a>
                     </div>
                 </div>
             </div>
@@ -96,28 +140,22 @@
         <div class="text-center text-white">
             <h2 class="section-heading text-uppercase">Видео от AITU</h2>
         </div>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="col-lg-12 embed-responsive-item" src="https://www.youtube.com/embed/Qxz1vQN-LIo" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9 text-center">
+            <iframe width="560" height="315" class="col-lg-8" src="https://www.youtube.com/embed/Qxz1vQN-LIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </section>
 <!--Footer-->
 <footer id="footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
     <div class="container text-center text-white">
-      <small>&copy; AITU Hub, 2022</small>
+            <small>&copy; AITU HUB
+                <span id="copyright"><script src="js/year.js"></script></span>
+            </small>
     </div>
   </footer>
   <script src="jquery/jquery.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript">
-    var nav = document.querySelector('nav');
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 100) {
-        nav.classList.add('bg-dark', 'shadow');
-      } else {
-        nav.classList.remove('bg-dark', 'shadow');
-      }
-    });
-  </script>
+  <script src="js/reveal.js"></script>
+  <script src="js/header.js"></script>
 </body>
 </html>
